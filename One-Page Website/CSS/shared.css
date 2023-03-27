@@ -18,7 +18,7 @@ body {
     background-color: #fff;
 }
 
-footer,
+
 nav {
     display: block;
 }
@@ -99,8 +99,15 @@ section {
 .container {
     padding-right: 15px;
     padding-left: 15px;
-    padding-right: auto;
-    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container-fluid {
@@ -153,7 +160,7 @@ section {
     HOME SCREEN STYLES
 ------------------------*/
 #home {
-    background: url(../images/thumb/thumbnail_1.png) no-repeat 50% 50%;
+    background: url(../images/thumb/thumbnail_9.png) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
