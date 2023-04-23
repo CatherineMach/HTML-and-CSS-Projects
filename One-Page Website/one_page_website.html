@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<title> BEARS BEARS BEARS!</title>
 		<link rel="stylesheet" href="./CSS/shared.css">
+		<script src="JS/one_page_website.js"></script>
 	</head>
 	<body>
 
@@ -37,6 +38,65 @@
 			<h1>Gallery</h1>
 			<div class="flex-container">
 
+				<div class="row">
+					<div class="column">
+					  <img src="./images/Thumb/thumbnail_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+					  <img src="./images/Thumb/thumbnail_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+					  <img src="./images/Thumb/thumbnail_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+					  <img src="./images/Thumb/thumbnail_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					</div>
+				  </div>
+				  <div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+				  
+					  <div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="./images/Thumb/thumbnail_1.png" style="width:100%">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="./images/Thumb/thumbnail_2.png" style="width:100%">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="./images/Thumb/thumbnail_3.png" style="width:100%">
+					  </div>
+					  
+					  <div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="./images/Thumb/thumbnail_4.png" style="width:100%">
+					  </div>
+					  
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				  
+					  <div class="caption-container">
+						<p id="caption"></p>
+					  </div>
+					  
+					  <div class="column">
+						<img class="demo cursor" src="./images/Thumb/thumbnail_1.png" style="width:100%" onclick="currentSlide(1)" alt="Sun bear in tree">
+					  </div>
+					  <div class="column">
+						<img class="demo cursor" src="./images/Thumb/thumbnail_2.png" style="width:100%" onclick="currentSlide(2)" alt="Sun bear sleeping ">
+					  </div>
+					  <div class="column">
+						<img class="demo cursor" src="./images/Thumb/thumbnail_3.png" style="width:100%" onclick="currentSlide(3)" alt="Fluffy bear">
+					  </div>
+					  <div class="column">
+						<img class="demo cursor" src="./images/Thumb/thumbnail_4.png" style="width:100%" onclick="currentSlide(4)" alt="fluffy bear">
+					  </div>
+					</div>
+				  </div>
 				<!--PHOTO-CONTAINER 1-->
 				<div class="photo-container">
 					<div class="photo">
